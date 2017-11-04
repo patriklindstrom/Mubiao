@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  mubiao:
-    image: mubiao
-    build:
-      context: ./Mubiao
-      dockerfile: Dockerfile
