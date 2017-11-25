@@ -4,21 +4,14 @@ import { RouteComponentProps } from 'react-router-dom';
 export default class Home extends React.Component<RouteComponentProps<{}>, {}> {
     public render() {
         return <div>
-            <h1>Hello, world!</h1>
-            <p>Welcome to your new single-page application, built with:</p>
+            <h1>Gassho, du som tr&auml;nar Shorinji Kempo!</h1>
+            <p>Stockholm S&ouml;dra Shorinji Kempo m&aring;ls&auml;ttnings webapp. H&auml;r kan du:</p>
             <ul>
-                <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-                <li><a href='https://facebook.github.io/react/'>React</a>, <a href='http://redux.js.org'>Redux</a>, and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
-                <li><a href='https://webpack.github.io/'>Webpack</a> for building and bundling client-side resources</li>
-                <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-            </ul>
-            <p>To help you get started, we've also set up:</p>
-            <ul>
-                <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-                <li><strong>Webpack dev middleware</strong>. In development mode, there's no need to run the <code>webpack</code> build tool. Your client-side resources are dynamically built on demand. Updates are available as soon as you modify any file.</li>
-                <li><strong>Hot module replacement</strong>. In development mode, you don't even need to reload the page after making most changes. Within seconds of saving changes to files, rebuilt React components will be injected directly into your running application, preserving its live state.</li>
-                <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and the <code>webpack</code> build tool produces minified static CSS and JavaScript files.</li>
-                <li><strong>Server-side prerendering</strong>. To optimize startup time, your React application is first rendered on the server. The initial HTML and state is then transferred to the browser, where client-side code picks up where the server left off.</li>
+                <li><a href="./attendance">Registrera n&auml;varo</a> och se <a href="./club-trainingplan">tr&auml;ingsplaneringen</a> </li>
+                <li>F&aring; <a href="./club-feedback">feedback p&aring;</a>  din tr&auml;ning, och  <a href="./your-notes">anteckna</a> egna saker</li>
+                <li><a href="./your-goals">S&auml;tta upp m&aring;l</a> f&ouml;r fysisk tr&auml;ning</li>
+                <li><a href="./your-techniques">F&ouml;lja upp tekniker</a> f&ouml;r n&auml;sta gradering</li>
+                <li>F&ouml;rh&ouml;ra dig p&auml;<a href="./your-techniques/rehearse"> tekniknamn</a> f&ouml;r n&auml;sta gradering</li>
             </ul>
         </div>;
     }
